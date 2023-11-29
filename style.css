@@ -35,6 +35,16 @@ footer {
 @media screen and (min-width: 641px) {
 	.container {
 		display: grid;
-		grid-template-columns: 20% auto;
+		grid-template-columns: 15% auto;
+	}
+}
+
+@media screen and (min-width: 1008px) {
+	main {
+		display: flex;
+	}
+
+	main > * {
+		flex: 1;
 	}
 }
