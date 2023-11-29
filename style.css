@@ -6,8 +6,11 @@ body {
 	text-align: center;
 }
 
-body > *,
-article {
+header,
+nav,
+main,
+article,
+footer {
 	margin: 0.25rem;
 	padding: 0.5rem;
 
@@ -27,4 +30,11 @@ p {
 
 footer {
 	padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 641px) {
+	.container {
+		display: grid;
+		grid-template-columns: 20% auto;
+	}
 }
