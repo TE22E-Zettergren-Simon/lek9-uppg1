@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+body > *,
+article {
+	margin: 0.25rem;
+	padding: 0.5rem;
+
+	border: black solid 2px;
+	border-radius: 0.5rem;
+}
+
+nav ul {
+	list-style: none;
+
+	padding: 0;
+}
+
+p {
+	text-align: left;
+}
+
+footer {
+	padding: 1.5rem 0;
+}
